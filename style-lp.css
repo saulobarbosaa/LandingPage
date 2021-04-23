@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/*
+
+font-family: 'Montserrat Alternates', sans-serif;
+
+font-family: 'Open Sans', sans-serif;
+
+
+*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: 'Dela Gothic One', cursive;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 6rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Aside*/
+
+.div-aside {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+}
+
+.aside-nav h1 {
+    font-size: 2.3rem;
+}
+
+.aside-nav {
+    height: 2.5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul a {
+    color: black;
+    margin-right: 18px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    height: 7.1rem;
+}
+
+
+/* Section 1 - Intro */
+
+.section-1 {
+    background-image: url(../landing-page-curso/img/Sun-Tornado.svg);
+    background-size:cover;
+    background-position: top;
+    min-height: 110vh;
+}
+
+.aside-spacing {
+    height: 3.0rem;
+}
+
+.intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.section1-text h2 {
+    color: white;
+    padding: 1.5rem;
+}
+
+.section1-text p {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.section1-img img {
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Section 2 - News Coverage */
+
+.section-2 {
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.news-content {
+    max-width: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+.news-content p {
+    text-shadow: none;
+}
+
+/* Section 3 - My grid*/
+
+.section-3 {
+    min-height: 100vh;
+    background-image: url(../landing-page-curso/img/Sun-Tornado.svg);
+    background-size:cover;
+    background-position: top;
+    color: white;
+}
+
+.grid p {
+    color: white;
+}
+
+.mygrid-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 120rem;
+    padding-top: 70px;
+    grid-gap: 20px;
+}
+
+.mygrid-content h2 {
+    padding: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+
+.grid h3{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Section 4 - Gallery */
+
+.section-4 {
+    min-height: 120vh;
+    background-color: white;
+    background-size:cover;
+    background-position: top;
+}
+
+.mygallery-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 120rem;
+    padding-top: 70px;
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.section-4 h2, p {
+    padding: 1.5rem;
+    color: black;
+}
+
+.grid-images {
+    max-width: 100%;
+    min-height: 36rem;
+    min-height: 36rem;
+    overflow: hidden;
+}
+
+/*section 5 - grid 2 */
+
+.section-5 {
+    margin-top: 25px;
+}
+
+/* section 6 - pricing */
+
+.section-6 {
+    min-height: 100vh;
+}
+
+.pricing-content {
+    max-width: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+table {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 1.5rem;
+
+}
+
+table caption {
+    font-style: italic;
+    padding: 0.5rem;
+}
+
+table td, table th {
+    border: 0.1rem solid rgb(165, 165, 165);
+}
+
+table th {
+    background-color: rgb(165, 165, 165);
+}
+
+.responsive-table {
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+}
+
+/*Footer*/
+
+.footer {
+    min-height: 30px;
+    background-color: rgb(189, 186, 186);
+}
+
+.footer p {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Media Querie */
+
+@media (max-width: 850px) {
+  .intro-content, .grid, .grid-gallery{
+      grid-template-columns: 1fr;
+  }
+  
+  .grid-gallery {
+      width: 100%;
+      max-width: auto;
+      max-height: auto;
+  }
+
+  .grid-gallery  img{
+    width: 100%;
+  }
+}
